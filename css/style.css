@@ -68,7 +68,7 @@ body {
             transition: 0.3s;
         }
         .hero {
-            background: url('asset/hero.jpg');
+            background: url('./asset/hero.jpg');
             color: #222;
             text-align: center;
             padding: 4rem 1rem 3rem 1rem;
@@ -118,7 +118,7 @@ body {
             color: #45abff;
         }
         .about-content {
-            background: url('asset/about.jpg');
+            background: url('./asset/about.jpg');
             border-radius: 12px;
             box-shadow: 0 2px 12px rgba(0,0,0,0.07);
             padding: 2rem;
