@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelancer UI/UX Designer Profile</title>
+    <link rel="icon" href="/asset/Favicon.png" type="image/png">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <div class="navbar-container">
+            <a href="#home" class="navbar-logo"><img src="/asset/Favicon.png" alt="Logo" style="width: 32px; height: auto;"></a>
+            <div class="navbar-links">
+                <ul id="navbarMenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#aboutus">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="hamburger" id="hamburgerBtn" aria-label="Toggle navigation" tabindex="0">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <h1>Hi, I'm Ilham Muharam</h1>
+        <p>Freelance UI/UX Designer — Crafting delightful digital experiences for your business.</p>
+    </section>
+
+    <section class="section" id="services">
+        <h2 style="text-align:center;">Services</h2>
+        <div class="services-cards">
+            <div class="card">
+                <i class="fa-solid fa-display fa-2x" style="color:#45abff; margin-bottom:0.7rem;"></i>
+                <h3>UI Design</h3>
+                <p>Modern, clean, and responsive user interfaces for web and mobile apps.</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-magnifying-glass-chart fa-2x" style="color:#45abff; margin-bottom:0.7rem;"></i>
+                <h3>UX Research</h3>
+                <p>User research, wireframing, and prototyping to ensure usability and satisfaction.</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-palette fa-2x" style="color:#45abff; margin-bottom:0.7rem;"></i>
+                <h3>Brand Identity</h3>
+                <p>Logo, color palette, and visual guidelines to strengthen your brand presence.</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-comments fa-2x" style="color:#45abff; margin-bottom:0.7rem;"></i>
+                <h3>Design Consultation</h3>
+                <p>Expert advice and design audits to improve your product’s user experience.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="aboutus">
+        <h2 style="text-align:center;">About Me</h2>
+        <div class="about-content">
+            <img src="/asset/me.png" alt="Ilham Muharam" style="width:150px; height:150px; border-radius:50%; margin-bottom:1rem;">
+            <p>
+                I'm Ilham Muharam, a passionate freelance UI/UX designer with 5+ years of experience (in freelance and college projects) creating intuitive, engaging, and effective digital products. My approach combines creativity, empathy, and strategic thinking to deliver solutions that not only look great but also solve real user problems. Let's collaborate to bring your ideas to life!
+            </p>
+        </div>
+    </section>
+
+    <section class="section" id="contact">
+        <h2 style="text-align:center;">Contact</h2>
+        <form class="contact-form" id="contactForm" autocomplete="off">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required placeholder="Your Name">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="your@email.com">
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required placeholder="Type your message..."></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <div class="nugget" id="nugget"></div>
+
+    <footer>
+        <p>&copy; 2025 Ilham Muharam. All rights reserved.</p>
+        <p>
+            <a href="https://twitter.com/ilhamuharam1" style="color:#45abff; margin:0 0.5rem;" aria-label="Twitter" target="_blank" rel="noopener">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="https://linkedin.com/in/ilhamuharam" style="color:#45abff; margin:0 0.5rem;" aria-label="LinkedIn" target="_blank" rel="noopener">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="mailto:ilhamuharam@email.com" style="color:#45abff; margin:0 0.5rem;" aria-label="Email">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+        </p>
+    </footer>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
